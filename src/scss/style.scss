@@ -13,14 +13,6 @@
     }
 }
 
-// footer {
-//     position: absolute;
-//     bottom: 0;
-//     left: 0;
-//     width: 100%;
-//     text-align: center;
-// }
-
 section {
     margin: 1rem auto;
     width: 40rem;
@@ -29,6 +21,9 @@ section {
         padding: 1rem;
         max-height: 20rem;
         overflow-y: scroll;
+    }
+    li {
+        margin: 1rem auto;
     }
 }
 
@@ -62,9 +57,13 @@ button {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     padding: 1rem;
     background: white;
-    width: 40rem;
-    max-width: 90%;
-    margin: 1rem auto;
+    cursor: pointer;
+    P {
+        margin: 1rem 0;
+    }
+}
+.droppable {
+    background: #ffe0ec;
 }
 
 #active-projects {
@@ -79,7 +78,6 @@ button {
 
         h2 {
             color: white;
-            margin: 0;
         }
     }
 }
@@ -96,7 +94,6 @@ button {
 
         h2 {
             color: white;
-            margin: 0;
         }
     }
 }
